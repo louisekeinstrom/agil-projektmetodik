@@ -1,19 +1,30 @@
 .header {
-
 }
 
 .menu {
-    
 }
 
 .container {
-    
 }
 
-.form {
+.formBody {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
 
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.Btn {
+  width: 100px;
+  margin: 10px 0px;
 }
 
 .show-user {
-
 }
