@@ -1,9 +1,22 @@
-.header {
-
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu {
-    
+    display: flex;
+    height: 50px;
+    background-color: rgb(74, 74, 193);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
