@@ -1,37 +1,51 @@
 const nameValue = document.querySelector('#name');
 
-const mail = document.querySelector('#mail');
+const mail = document.querySelector('#email');
 
 const picture = document.querySelector('#picture');
 
 const inputSubmit = document.querySelector('#submit');
 
-const comfirmAction = document.querySelector('#submit-comfirmed');
+const confirmAction = document.querySelector('#submit-confirmed');
+
+const formContainer = document.querySelector('#form-container');
 
 
 
+formContainer.addEventListener('submit', (e) => {
 
-
-inputSubmit.addEventListener('click', (e) => {
+    e.preventDefault();
 
     console.log('hej');
 
-e.preventDefault()
+    confirmAction.innerHTML = `<p>
 
+    You have sent in this information: <br>
 
+    Name:${nameValue.value} <br>
 
-comfirmAction.innerHTML= `<p>
+    Mail:${email.value} <br>
 
-You have sent in this information; <br>
+    Image: <img height="200px" id="output" src= />
 
-Name:${nameValue.value} <br>
+    </p>`
 
-Mail:${mail.value}</p> <br>
-
-Image:${picture.value}
-
-</p>`
-
-}
+    }
 
 );
+
+var loadFile = function (event) {
+
+    var reader = new FileReader();
+
+    reader.onload = function () {
+
+        var output = document.getElementById('output');
+
+        output.src = reader.result;
+
+    };
+
+    reader.readAsDataURL(event.target.files[0]);
+
+};

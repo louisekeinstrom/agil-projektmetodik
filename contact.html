@@ -43,32 +43,35 @@
 
         <h1>Contact details</h1>
 
-        <form class="formContainer">
-            <!-- first name input -->
+        <form id="form-container">
+            <!-- name input -->
 
-            <label for="firstname">First name:</label>
+            <label for="name">Name:</label>
 
-            <input type="text" id="firstname" name="firstname" value="" />
+            <input type="text" id="name" name="name" value="" />
 
-            <!-- last name input -->
+            <!-- email input -->
 
-            <label for="lastname">Last name:</label>
+            <label for="email">Email:</label>
 
-            <input type="text" id="lastname" name="lastname" value="" />
+            <input type="text" id="email" name="email" value="" />
 
             <!-- profile pic upload -->
 
-            <label for="avatar">Choose a profile picture:</label>
+            <label for="picture">Choose a profile picture:</label>
 
-            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" class="Btn" />
+            <input type="file" accept="image/*" id="imgSub" onchange="loadFile(event)">
 
             <!-- submit button -->
 
             <input type="submit" value="Submit" class="Btn" />
         </form>
 
-        <div id="submit-comfirmed"></div>
+        <div id="submit-confirmed">
+
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
