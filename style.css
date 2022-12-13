@@ -4,7 +4,7 @@
     justify-content: space-between;
     width: 80px;
 }
-
+  
 .menu {
     display: flex;
     height: 50px;
@@ -14,32 +14,44 @@
     align-items: center;
     padding: 5px 10px;
     color: white;
-
-}
-
-.contact-details {
+  }
+  
+  .contact-details {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 200px;
-}
-
-.fa-solid {
+  }
+  
+  .fa-solid {
     color: white;
-}
-
-.fa-duotone {
+  }
+  
+  .fa-duotone {
     color: white;
-}
-
-.container {
-    
-}
-
-.form {
-
-}
-
-.show-user {
-
-}
+  }
+  
+h1 {
+    padding-top: 50px;
+  }
+  
+  .formBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  
+  .Btn {
+    width: 100px;
+    margin: 10px 0px;
+  }
+  
+  .show-user {
+  }

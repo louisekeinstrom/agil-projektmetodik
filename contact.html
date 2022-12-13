@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
 
     <script src="https://kit.fontawesome.com/44fc62139d.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-  </head>
+</head>
 
-  <body class="formBody">
+<body>
 
     <div class="menu">
 
@@ -42,36 +39,36 @@
 
     </div>
 
-    <h1>Contact details</h1>
+    <div class="formBody">
 
-    <form class="formContainer">
-      <!-- first name input -->
+        <h1>Contact details</h1>
 
-      <label for="firstname">First name:</label>
+        <form class="formContainer">
+            <!-- first name input -->
 
-      <input type="text" id="firstname" name="firstname" value="" />
+            <label for="firstname">First name:</label>
 
-      <!-- last name input -->
+            <input type="text" id="firstname" name="firstname" value="" />
 
-      <label for="lastname">Last name:</label>
+            <!-- last name input -->
 
-      <input type="text" id="lastname" name="lastname" value="" />
+            <label for="lastname">Last name:</label>
 
-      <!-- profile pic upload -->
+            <input type="text" id="lastname" name="lastname" value="" />
 
-      <label for="avatar">Choose a profile picture:</label>
+            <!-- profile pic upload -->
 
-      <input
-        type="file"
-        id="avatar"
-        name="avatar"
-        accept="image/png, image/jpeg"
-        class="Btn"
-      />
+            <label for="avatar">Choose a profile picture:</label>
 
-      <!-- submit button -->
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" class="Btn" />
 
-      <input type="submit" value="Submit" class="Btn" />
-    </form>
-  </body>
+            <!-- submit button -->
+
+            <input type="submit" value="Submit" class="Btn" />
+        </form>
+
+        <div id="submit-comfirmed"></div>
+    </div>
+</body>
+
 </html>
