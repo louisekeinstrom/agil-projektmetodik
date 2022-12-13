@@ -1,7 +1,8 @@
 .home {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 80px;
 }
 
 .menu {
@@ -11,12 +12,22 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 2px 5px;
 }
 
 .contact-details {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.fa-solid {
+    color: white;
+}
+
+.fa-duotone {
+    color: white;
 }
 
 .container {
