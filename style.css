@@ -3,10 +3,10 @@ h1 {
 }
 
 .home {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
 }
   
 .menu {

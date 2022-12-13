@@ -1,47 +1,24 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-
-    <script src="https://kit.fontawesome.com/44fc62139d.js" crossorigin="anonymous"></script>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
-    <div class="menu">
-
-        <div class="home">
-
-            <h2><a href="index.html"><i class="fa-solid fa-house"></i></a></h2>
-
-            Home
-
-        </div>
-
-        <div class="contact-details">
-
-            <h2><a href="#"><i class="fa-duotone fa-address-card"></i></a></h2>
-
-            Upload contact details
-
-        </div>
-
-    </div>
-
-    <div class="formBody">
-
-        <h1>Contact details</h1>
+  <body class="formBody">
+    <h1>Contact details</h1>
 
         <form id="form-container">
             <!-- name input -->
@@ -56,13 +33,13 @@
 
             <input type="text" id="email" name="email" value="" />
 
-            <!-- profile pic upload -->
+      <!-- profile pic upload -->
 
             <label for="picture">Choose a profile picture:</label>
 
             <input type="file" accept="image/*" id="imgSub" onchange="loadFile(event)">
 
-            <!-- submit button -->
+      <!-- submit button -->
 
             <input type="submit" value="Submit" class="Btn" />
         </form>
@@ -71,6 +48,7 @@
 
         </div>
     </div>
+    <script src="script.js"></script>
     <script src="script.js"></script>
 </body>
 
